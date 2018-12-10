@@ -1,0 +1,5 @@
+{"editor.renderWhitespace": "none",
+ "files.autoSave": "afterDelay",
+ "editor.formatOnType":true,
+ "editor.cursorStyle": "underline",   
+}
