@@ -80,7 +80,6 @@ nav{
     display: grid;
     grid-gap: 15px;
     margin-bottom: 1.1rem;
-    /* margin: 20px; */
     margin-right: 1rem;
     grid-template-areas: 
         'top-box-a showcase showcase'
@@ -113,6 +112,7 @@ nav{
 .showcase a:hover{
     background: var(--light);
     color: var(--dark);
+    text-decoration: none;
 }
 
 .showcase h1{
@@ -139,7 +139,7 @@ nav{
     color: orange;
     padding: 0.5rem;
     margin: 0.5rem;
-    background: var(--dark);
+    background: var(--text);
     font-style:  bold;
     font-weight: 750;
 }
@@ -433,12 +433,21 @@ footer{
         text-align: center;
         justify-content: left;
     }
-    .footer ul{
+    /* .footer ul{
         padding: 0%;
         margin: 0%;
         text-align: center;
         justify-content: center;
         font-size: 0.75rem;
+    } */
+    footer{
+        margin: 1rem;
+        background: var(--primary);
+        color: var(--dark);
+        text-align: center;
+        text-decoration: none;
+        padding: 0.75rem;
+        font-weight: 600;
     }
 }
 
@@ -481,7 +490,8 @@ footer{
         font-size: 1rem;
     }
     .showcase h3 {
-        font-size: 0.5rem;
+        font-size: 0.55rem;
+        font-weight: 600;
     }
 
     .showcase .btn{
@@ -505,7 +515,7 @@ footer{
         padding: 0.5rem 2rem;
         text-decoration: none;
         border: 0;
-        font-weight: 700;
+        font-weight: 600;
     } 
     .info {
         grid-template-columns: 1fr;
@@ -522,7 +532,7 @@ footer{
         font-size: 1.2rem;
         text-align: center;
     
-        }
+     }
 
  
     .info p{
@@ -533,6 +543,17 @@ footer{
     .info .img{
         height:200;
     
-        }
+    }
+
+    footer{
+        margin: 0.5rem;
+        background: var(--primary);
+        color: var(--dark);
+        text-align: center;
+        text-decoration: none;
+        padding: 0.5rem;
+        font-weight: 500;
+
+    }
 
 }
