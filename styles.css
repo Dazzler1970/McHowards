@@ -463,12 +463,30 @@ footer{
         font-size: 0.5.rem;
     }
 
+   .index .background img{
+       height: 350px;
+       width: 350px;
+
+    }
+
+    .showcase img{
+        height: 250px;
+        width: 250px;
+    }
     .showcase h1 {
         font-size: 1.5rem;
     }
 
     .showcase h2 {
         font-size: 1rem;
+    }
+    .showcase h3 {
+        font-size: 0.5rem;
+    }
+
+    .showcase .btn{
+    font-size: 0.5rem;
+    padding:  0.3rem 0.5rem;
     }
 
     .boxes{
