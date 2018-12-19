@@ -45,10 +45,9 @@ img{
 
 nav{
    font-weight: bold;
-   margin: 1%;
-   padding: 0%;
+   margin:0.5rem;
+   padding: 0.5rem;
    background: var(--primary);
-
    }
 /* index page */
  .index-top-container{
@@ -121,6 +120,7 @@ nav{
     color: white;
     padding: 0.5rem;
     font-weight: 750;
+    text-align: center;
 }
 .showcase h2{
     font-size: 1.5rem;
@@ -339,7 +339,7 @@ footer{
     margin: 2rem;
     background: var(--primary);
     color: var(--dark);
-    text-align: left;
+    text-align: center;
     text-decoration: none;
     padding: 1rem;
     font-weight: 600;
@@ -452,11 +452,20 @@ footer{
 }
 
 @media(max-width:500px){
+
+    .wrapper{
+        margin: 0;
+    }
     .top-container{
         grid-template-areas: 
         'top-box-a'
         'showcase'
         'top-box-b';
+    }
+    .topnav{
+        padding: 0%;
+        font-size: 0.5rem;
+        padding: 0%;
     }
     .top-box-a .about{
         padding: 0%;
@@ -475,15 +484,17 @@ footer{
    .index .background img{
        height: 350px;
        width: 350px;
+       align-self: auto;
 
     }
 
     .showcase img{
-        height: 250px;
-        width: 250px;
+        height: 200px;
+        width: 200px;
     }
     .showcase h1 {
-        font-size: 1.5rem;
+        font-size: 1.25rem;
+        text-align: center;
     }
 
     .showcase h2 {
@@ -492,6 +503,7 @@ footer{
     .showcase h3 {
         font-size: 0.55rem;
         font-weight: 600;
+        text-align: center;
     }
 
     .showcase .btn{
@@ -546,13 +558,13 @@ footer{
     }
 
     footer{
-        margin: 0.5rem;
+        margin: 0;
         background: var(--primary);
         color: var(--dark);
         text-align: center;
         text-decoration: none;
-        padding: 0.5rem;
-        font-weight: 500;
+        padding: 0.25rem;
+        font-weight: 300;
 
     }
 
