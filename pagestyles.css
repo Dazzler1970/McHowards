@@ -63,7 +63,11 @@
     justify-content: center;
     box-shadow: var(--shadow);
 }
-* Add a black background color to the top navigation bar */
+
+
+/*Page Top Navigation*/
+
+/* Add a black background color to the top navigation bar */
 .topnav {
     overflow: hidden;
     background-color: var(--white);

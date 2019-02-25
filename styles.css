@@ -63,9 +63,6 @@ nav{
  }
 /* Top Container */
 
-
-
-
 .showcase a:hover{
     background: var(--light);
     color: var(--dark);
@@ -152,13 +149,11 @@ nav{
 .top-box-a{
     grid-area: top-box-a;
     text-align: center;
- 
 }
 
 .top-box-b{
     grid-area: top-box-b;
-    text-align: center;
-  
+    text-align: center; 
 }
 
 .top-box-b .btn{
@@ -207,7 +202,6 @@ nav{
 }
 /* Info */
 
-
 .info a:hover{
     background: var(--light);
     color: var(--dark);
@@ -231,7 +225,6 @@ nav{
 .info h4{
     font-size: 1.25rem;
     font-weight: 550;
-
 }
 
 .info-about{
@@ -368,13 +361,7 @@ footer{
         text-align: center;
         justify-content: left;
     }
-    /* .footer ul{
-        padding: 0%;
-        margin: 0%;
-        text-align: center;
-        justify-content: center;
-        font-size: 0.75rem;
-    } */
+
     footer{
         margin: 1rem;
         background: var(--primary);
