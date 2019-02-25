@@ -76,8 +76,6 @@
 
 * {box-sizing: border-box;}
 
-
-
 .topnav {
   overflow: hidden;
   background-color: var(--white);
@@ -129,19 +127,3 @@
   background:var(--light);
 }
 
-@media screen and (max-width: 600px) {
-  .topnav .search-container {
-    float: none;
-  }
-  .topnav a, .topnav input[type=text], .topnav .search-container button {
-    float: none;
-    display: block;
-    text-align: left;
-    width: 100%;
-    margin: 0;
-    padding: 1rem;
-  }
-  .topnav input[type=text] {
-    border: 1px solid var(--shadow);  
-  }
-}
