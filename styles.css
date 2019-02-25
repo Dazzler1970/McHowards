@@ -62,24 +62,7 @@ nav{
 
  }
 /* Top Container */
-.top-container{
-    display: grid;
-    grid-gap: 15px;
-    margin-bottom: 1.1rem;
-    margin-right: 1rem;
-    grid-template-areas: 
-        'top-box-a showcase showcase'
-        'top-box-b showcase showcase';
-}
 
-.showcase-accounts{
-    display: grid;
-    grid-gap: 15px;
-    margin-bottom: 0.50rem;
-    grid-template-areas: 
-        'showcase showcase'
-        'showcase showcase';
- }
 
 
 
