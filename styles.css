@@ -9,18 +9,7 @@
     --white:#ffffff;
 }
 
-html{
-    box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
-    color: var(--dark);
-}
 
-body{
-    background: var(--primary);
-    margin: 30px 50px;
-    line-height: 1.4;
-    font-family: Arial, Helvetica, sans-serif;    
-}
 
 .btn{
     background: var(--dark);
