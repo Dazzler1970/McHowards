@@ -55,7 +55,8 @@
     margin-top: 1rem;
     margin-bottom: 1rem;
     grid-template-columns: repeat(2, 1fr);
-    padding: 3rem;
+    padding: 2rem;
+    
 }
 
 html{
