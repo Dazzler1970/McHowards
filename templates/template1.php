@@ -7,14 +7,14 @@
 </head>
 <body>
 <header>
-<?php include 'includes\header.php';?>
+<?php include '\Users\daron\OneDrive\Documents\GitHub\McHowards\includes\header.php';?>
 </header>
 <nav>
-<?php include 'includes\navigation.php';?>
+<?php include '\Users\daron\OneDrive\Documents\GitHub\McHowards\includes\navigation.php';?>
 </nav>
 </main></main>
 <footer>
-<?php include 'includes\footer.php';?>
+<?php include '\Users\daron\OneDrive\Documents\GitHub\McHowards\includes\footer.php';?>
 </footer>
 
 
