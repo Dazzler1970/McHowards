@@ -7,13 +7,13 @@
 </head>
 <body>
 <header>
-<?php include 'includes\header.php';?>
+<?php include 'includes\header.html';?>
 </header>
 <nav>
-<?php include 'includes\navigation.php';?>
+<?php include 'includes\navigation.html';?>
 </nav>
 </main></main>
 <footer>
-<?php include 'includes\footer.php';?>
+<?php include 'includes\footer.html';?>
 </footer>
 </body>
