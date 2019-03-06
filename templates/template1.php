@@ -8,7 +8,7 @@
 <body>
 <header>
 <?php include 'includes\header.php';?>
-
+Hello
 </header>
 <nav></nav>
 </main></main>
