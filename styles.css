@@ -1,3 +1,10 @@
+body {
+    margin:0; /*gets rid of white space around body?*/
+    margin-top:16px;
+    height:150vh; /*you can let your content define it's height */
+    position:relative; /*REQUIRED Sets up positioning for your foote*/
+  }
+
 /* CSS Variables */
 :root{
     --primary: #e5ebf0;
