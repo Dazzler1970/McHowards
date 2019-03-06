@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Template 2019 D. Howard</title>
+    <title>D. Howard</title>
 </head>
 <body>
 <header>
