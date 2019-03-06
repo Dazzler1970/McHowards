@@ -10,9 +10,15 @@
 <?php include 'includes\header.php';?>
 Hello
 </header>
-<nav></nav>
+<nav>
+<?php include 'includes\navigation.php';?>
+Navigation
+</nav>
 </main></main>
-<footer></footer>
+<footer>
+<?php include 'includes\footer.php';?>
+Goodbye
+</footer>
 
 
 </body>
