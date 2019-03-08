@@ -285,9 +285,10 @@ nav{
 }
 /* Footer */
 footer{
+    background-color: var(--dark);
     margin: 2rem;
     background: var(--primary);
-    color: var(--dark);
+    color: var(--light);
     text-align: center;
     text-decoration: none;
     padding: 1rem;
