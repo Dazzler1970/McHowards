@@ -12,6 +12,5 @@
 body{
     background: var(--primary);
     margin: 30px 50px;
-    line-height: 1.4;
     font-family: Arial, Helvetica, sans-serif;    
 }
