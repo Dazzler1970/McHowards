@@ -72,6 +72,73 @@ img{
     'top-box-b showcase showacse '
 }
 
+/* Navigation */
+
+nav{
+    font-weight: bold;
+    margin:0.5rem;
+    padding: 0.5rem;
+    background: var(--primary);
+    }
+
+.topnav {
+    overflow: hidden;
+    background-color: var(--white);
+}
+
+/* * {box-sizing: border-box;} */
+
+.topnav {
+  overflow: hidden;
+  background-color: var(--white);
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: var(--white);
+  color: var(--text);
+}
+
+.topnav a.active {
+  background-color: var(--light);
+  color: var(--white);
+}
+
+.topnav .search-container {
+  float: right;
+}
+
+.topnav input[type=text] {
+  padding: 6px;
+  margin-top: 0.25rem;
+  font-size: 17px;
+  border: none;
+}
+
+.topnav .search-container button {
+  float: right;
+  padding: 6px 10px;
+  margin: 0.1rem;
+  margin-right: 16px;
+  background: var(--primary);
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.topnav .search-container button:hover {
+  background:var(--light);
+}
+
 /* Showcase */
 
 .showcase h1{
@@ -178,6 +245,57 @@ img{
     padding: 1.5rem;
 }
 
+.top-container{
+    display: grid;
+    grid-gap: 15px;
+    margin-bottom: 1.1rem;
+    margin-right: 1rem;
+    grid-template-areas: 
+        'top-box-a showcase showcase'
+        'top-box-b showcase showcase';
+}
+
+.showcase{
+    grid-area: showcase;
+    min-height: 300px;
+    background-image: url("Officeindex/OfficeIndex4.jpeg");
+    background-size: cover;
+    background-position: center;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: var(--shadow);
+}
+
+.top-box {
+    background: var(--primary);
+    display: grid;
+    align-items: right;
+    justify-items: right;
+    box-shadow:.1em;
+    padding: 1.5rem;
+    display: block;
+    text-decoration: none;
+    padding: 0.5rem;  
+    color: var(--dark);
+    font-weight: 700;
+    font-size: 1.1rem;
+
+}
+
+.info{
+    background: var(--primary);
+    box-shadow: var(--shadow);
+    display: grid;
+    grid-gap: 30px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 1rem;
+    
+}
 
 /* Boxes */
 .boxes{
@@ -313,6 +431,69 @@ img{
     grid-gap: 30px;
     grid-template-columns: repeat(2, 1fr);
     padding: 3rem;
+}
+
+.info a:hover{
+    background: var(--light);
+    color: var(--dark);
+}
+.info p{
+    font-size: 1.1rem;
+    font-weight: 550;
+    justify-content: center;
+
+}
+
+.info h2{
+    font-size: 2rem;
+    margin-bottom: 0;
+    color:  #000000;
+    font-style: bold;
+    padding: 1rem;
+    font-weight: 750;
+}
+
+.info h4{
+    font-size: 1.25rem;
+    font-weight: 550;
+}
+
+.info-about{
+    background: var(--primary);
+    box-shadow: var(--shadow);
+    justify-items: center;
+    text-align: left;
+    display: grid;
+    grid-gap: 20px;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 2rem; 
+}
+
+    .info-about h2{
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
+}
+.info-about p{
+    font-size: 1.1rem;
+}
+.info-info a:hover{
+    background: var(--light);
+    color: var(--dark);
+}
+
+.info-info h2{
+    font-size: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 0;
+    color: var(--text);
+    font-style: bold;
+    padding: 2rem;
+    font-weight: 600;
+    justify-items: center;
+    text-align: center;
 }
 
 /* Boxes */
