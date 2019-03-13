@@ -11,7 +11,7 @@
 }
 
 body{
-    background: var(--primary);
+    background: var(--dark);
     margin: 30px 50px;
     font-family: Arial, Helvetica, sans-serif;    
   }
@@ -80,64 +80,6 @@ nav{
     padding: 0.5rem;
     background: var(--primary);
     }
-
-.topnav {
-    overflow: hidden;
-    background-color: var(--white);
-}
-
-/* * {box-sizing: border-box;} */
-
-.topnav {
-  overflow: hidden;
-  background-color: var(--white);
-}
-
-.topnav a {
-  float: left;
-  display: block;
-  color: black;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-.topnav a:hover {
-  background-color: var(--white);
-  color: var(--text);
-}
-
-.topnav a.active {
-  background-color: var(--light);
-  color: var(--white);
-}
-
-.topnav .search-container {
-  float: right;
-}
-
-.topnav input[type=text] {
-  padding: 6px;
-  margin-top: 0.25rem;
-  font-size: 17px;
-  border: none;
-}
-
-.topnav .search-container button {
-  float: right;
-  padding: 6px 10px;
-  margin: 0.1rem;
-  margin-right: 16px;
-  background: var(--primary);
-  font-size: 17px;
-  border: none;
-  cursor: pointer;
-}
-
-.topnav .search-container button:hover {
-  background:var(--light);
-}
 
 /* Showcase */
 
@@ -355,8 +297,8 @@ nav{
 }
 
 .top-box a:hover{
-    background: var(--dark);
-    color: var(--light);
+    background: var(--light);
+    color: var(--dark);
     text-decoration: none;
 }
 .top-box h3{
@@ -413,7 +355,7 @@ nav{
     color: var(--dark);
 }
  .index-top-container .btn{
-    background: var(--dark);
+    background: var(--primary);
     color: var(--primary);
     margin: 0.5rem;
     padding: 0.75rem 2rem;
@@ -561,7 +503,18 @@ footer{
 }
 .footer li{
     list-style-type: none;
+    color: var(--white);
 }
+
+.footer a{
+    color: var(--white);
+    text-decoration: none;
+}
+
+.footer a{
+    color: var(--white)
+}
+
 .footer .copyright p{
     text-align: left;
 }
