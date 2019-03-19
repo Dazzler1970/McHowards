@@ -261,13 +261,13 @@ nav{
 }
 .box{
     background: var(--primary);
-    text-align: center;
+    /* text-align: center; */
     padding: 1.5rem 2rem;
     box-shadow: none;
 }
 
 .box h2 {
-    font-size: 2.25rem;
+    font-size: 2rem;
     margin-bottom: 0;
     color: var(--text);
     font-style: bold;
@@ -314,7 +314,7 @@ nav{
 }
 
 .top-box h4{
-    font-size: 2rem;
+    font-size: 1.75rem;
     margin: 0;
     color: var(--text);
     font-style: bold;
@@ -323,7 +323,7 @@ nav{
 }
 
 .top-box p{
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     margin: 0;
     color: var(--text);
     font-style: bold;
@@ -331,13 +331,8 @@ nav{
     font-weight: 600;
 }
 
-.top-box .about{
-    font-size: 1.75rem;
-}
-
 .box {
     background: var(--primary);
-    text-align: center;
     padding: 1.5rem 2rem;
     box-shadow: var(--shadow);
 }
@@ -460,14 +455,6 @@ nav{
     box-shadow: none;
 }
 
-.box h2 {
-    font-size: 2.25rem;
-    margin-bottom: 0;
-    color: var(--text);
-    font-style: bold;
-    padding: 0;
-    font-weight: 750;
-}
 .box h3 {
     font-size: 1.25rem;
     margin-bottom: 0;
@@ -495,7 +482,6 @@ footer{
     grid-area: inherit;
     background: var(--dark);
     margin: 2rem;
-    color: var(--white);
     text-align: center;
     text-decoration: none;
     padding: 1rem;
@@ -619,7 +605,6 @@ footer{
     footer{
         margin: 1rem;
         background: var(--dark);
-        color: var(--white);
         text-align: center;
         text-decoration: none;
         padding: 0.75rem;
@@ -761,14 +746,12 @@ footer{
         text-align: center;
         margin: auto;
 
-
     }
     .info h2{
         font-size: 1.2rem;
         text-align: center;
     
      }
-
  
     .info p{
     font-size: 0.75rem;
@@ -782,8 +765,9 @@ footer{
 
     footer{
         margin: 0;
+        font-size: .85rem;
         background: var(--dark);
-        color: var(--white);
+        /* color: var(--white); */
         text-align: center;
         text-decoration: none;
         padding: 0.25rem;
