@@ -29,7 +29,7 @@ body{
     font-weight: 700;
 }
 
-img{
+.info img{
     max-width: 100%;
 }
 
@@ -206,7 +206,7 @@ nav{
     background-image: url("Officeindex/OfficeIndex4.jpeg");
     background-size: cover;
     background-position: center;
-    padding: 2rem;
+    padding: 1.75rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -317,7 +317,6 @@ nav{
     font-size: 1.75rem;
     margin: 0;
     color: var(--text);
-    font-style: bold;
     padding: 0rem;
     font-weight: 750;
 }
@@ -380,16 +379,12 @@ nav{
 }
 
 .info h2{
-    font-size: 2rem;
-    margin-bottom: 0;
-    color:  #000000;
-    font-style: bold;
-    padding: 1rem;
+    padding-bottom: 1rem;
     font-weight: 750;
+    justify-content: center;
 }
 
 .info h4{
-    font-size: 1.25rem;
     font-weight: 550;
 }
 
@@ -406,7 +401,7 @@ nav{
     padding: 2rem; 
 }
 
-    .info-about h2{
+.info-about h2{
     font-size: 2rem;
     font-weight: 600;
     text-align: center;
@@ -510,7 +505,6 @@ footer{
    
 }
 
-
 .contacthead h4 {
     font-size: 3rem;
     color: var(--light);
@@ -544,6 +538,7 @@ footer{
     }
     .showcase .img{
         position: relative;
+        margin: 0;
     }
 
     .showcase h1 {
@@ -573,6 +568,13 @@ footer{
         font-size: 1.1rem;
     }
 
+    .top-box-a img{
+        max-width: 100%;
+        justify-content: center;
+        padding: 0;
+        margin: 0;
+    }
+
     .top-box-b .about{
         font-size: 1.1rem;
     }
@@ -585,6 +587,11 @@ footer{
         display: block;
         text-align: center;
         margin: auto;
+
+    }
+
+    .info .img{
+        max-width: 100px;
 
     }
     .footer{
@@ -612,8 +619,7 @@ footer{
     }
 
     footer .icon-bar{
-        justify-content: center;
-        padding-left: 12rem;
+        padding-left: 35%;
     }
 }
 
@@ -633,10 +639,14 @@ footer{
       border: 1px solid var(--shadow);  
     }
 
+    .info .img{
+        max-width: 90%;
+
+    }
+
     footer{
         margin: 0;
         background: var(--dark);
-        color: var(--white);
         text-align: center;
         text-decoration: none;
         padding: 0.75rem;
@@ -645,7 +655,6 @@ footer{
 
     footer .icon-bar{
         justify-content: center;
-        padding-left: center;
     }
   }
 
@@ -653,6 +662,9 @@ footer{
 
     .wrapper{
         margin: 0;
+    }
+   .body{
+       margin: 10px;
     }
     .top-container{
         grid-template-areas: 
@@ -671,17 +683,20 @@ footer{
         font-style: italic;
     }
 
-    .top-box-a .img{
-        padding: 0.5rem;
+    .top-box-a img{
+        max-width: 100%;
+        padding: 0;
+        
     }
 
     .top-box-b .about{
         font-size: 0.5.rem;
+
     }
 
    .index .background img{
-       height: 350px;
-       width: 350px;
+       height: 100%;
+       width: 100%;
        align-self: auto;
 
     }
@@ -705,14 +720,14 @@ footer{
     }
 
     .showcase .btn{
-    font-size: 0.5rem;
-    padding:  0.3rem 0.5rem;
+        font-size: 0.5rem;
+        padding:  0.3rem 0.5rem;
     }
 
     .boxes{
         padding: 0%;
         margin: 0%;
-         font-size: 1rem
+        font-size: 1rem
     }
 
     .boxes h2{
@@ -754,29 +769,37 @@ footer{
      }
  
     .info p{
-    font-size: 0.75rem;
-    text-align: center;
+        font-size: 0.75rem;
+        text-align: left;
 
     }
-    .info .img{
-        height:200;
-    
+    .info img{
+        max-width: 125%;
+        justify-content: center;
+    }
+
+    .info{
+        margin: 0%
     }
 
     footer{
         margin: 0;
-        font-size: .85rem;
+        font-size: 0.75rem;
         background: var(--dark);
-        /* color: var(--white); */
         text-align: center;
         text-decoration: none;
-        padding: 0.25rem;
-        font-weight: 300;
-
+        padding: 0.01rem;
     }
 
-    /* footer .icon-bar{
+    .footer .icon-bar{
+       padding-left: 40%;
+       margin-left: 5%;
+       justify-content: left;
+    }
+    
+    footer a{
+        font-size: 0.85rem;
         justify-content: center;
-        /* padding-left: 6.5rem;
-    } */
+        margin: 5%;
+    }
 }
