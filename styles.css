@@ -1,10 +1,10 @@
 
 /* Defines CSS Variables */
 :root{
-    --primary: #e0ebf3;
+    --primary: #eff2f5;
     --dark:#4553b2;
     --light:#7ec9ff;
-    --shadow:#747681;
+    --shadow:#303249;
     --text: #000000;
     --icon:rgb(53, 175, 53);
     --link:#00FF00;
@@ -13,7 +13,7 @@
 
 /* Defines Body */
 body{
-    line-height: 1.1rem;
+    line-height: 1.5rem;
     align-content: center;
     background: var(--primary);
     margin: 50px;
@@ -212,7 +212,7 @@ nav{
     display: grid;
     align-items: right;
     justify-items: right;
-    box-shadow:.1em;
+    box-shadow: 0.1em;
     padding: 1.5rem;
     display: block;
     text-decoration: none;
@@ -320,6 +320,7 @@ nav{
     object-fit: cover;
     width: 100%;
     max-height: 100%;
+    align-items: center;
   }
 
 .info {
@@ -336,8 +337,9 @@ nav{
 }
 .info p{
     font-size: 1.1rem;
-    font-weight: 500;
+    font-weight: 550;
     justify-content: center;
+    color: var(--shadow)
 
 }
 
@@ -348,7 +350,7 @@ nav{
 }
 
 .info h4{
-    font-weight: 550;
+    font-weight: 600;
 }
 
 .info-about{
@@ -431,6 +433,15 @@ nav{
     font-weight: 750;
 }
 
+.box h4{
+    font-size: 1.5rem;
+    margin-bottom: 0;
+    color: var(--text);
+    font-style: bold;
+    padding: 0.5rem;
+    font-weight: 650;
+}
+
 .box {
     background: var(--primary);
     padding: 1.5rem 2rem;
@@ -448,8 +459,9 @@ nav{
     text-decoration: none;
     padding: 0.5rem;
     text-align: center;
-    color: var(--text);
-    font-size: 1.5rem;  
+    color: var(--shadow);
+    font-size: 1.1rem; 
+    list-style-type: none; 
 }
 .boxes a:hover{
     background: var(--light);
