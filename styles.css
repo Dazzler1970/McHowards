@@ -81,8 +81,8 @@ nav{
     color: var(--white);
     padding: 0.6rem 1.2rem;
     text-decoration: none;
-    border: 0;
-    font-weight: 700;
+    border: 0.1rem;
+    font-weight: 800;
     }
 
 
@@ -331,27 +331,36 @@ nav{
     grid-template-columns: repeat(2, 1fr);
 }
 
-.info a:hover{
-    background: var(--light);
-    color: var(--dark);
+.info h2{
+    padding-bottom: 0.5rem;
+    font-weight: 600;
+    justify-content: center;
+}
+
+.info h3{
+    padding-bottom: 0.5rem;
+    font-size: 1.5rem;
+    font-weight: 550;
+    text-align: left;
 }
 .info p{
+    padding-bottom: 2rem;
     font-size: 1.1rem;
-    font-weight: 550;
+    font-weight: 520;
     justify-content: center;
     color: var(--shadow)
-
-}
-
-.info h2{
-    padding-bottom: 1rem;
-    font-weight: 750;
-    justify-content: center;
 }
 
 .info h4{
     font-weight: 600;
 }
+
+.info a:hover{
+    background: var(--light);
+    color: var(--dark);
+}
+
+
 
 .info-about{
     background: var(--primary);
@@ -371,6 +380,7 @@ nav{
     font-weight: 600;
     text-align: center;
 }
+
 .info-about p{
     font-size: 1.1rem;
 }
@@ -392,10 +402,11 @@ nav{
 }
 
 
-/* Boxes */
+/* Boxes Section */
+
 .boxes{
     display: grid;
-    font-weight: 600;
+    font-weight: 650;
     padding: 10rem,;
     grid-gap: 10px;
     grid-template-columns: repeat(auto-fit, minmax (200px, 1fr));
@@ -405,15 +416,19 @@ nav{
     color: var(--text);
     font-size: 1.5rem;  
 }
-.boxes a:hover{
-    background: var(--light);
-    color: var(--dark);
-}
+
+/*box text*/
+
 .box{
     background: var(--primary);
-    /* text-align: center; */
+    text-align: center;
     padding: 1.5rem 2rem;
     box-shadow: none;
+}
+
+.box a:hover{
+    background: var(--light);
+    color: var(--dark);
 }
 
 .box h2 {
@@ -442,46 +457,8 @@ nav{
     font-weight: 650;
 }
 
-.box {
-    background: var(--primary);
-    padding: 1.5rem 2rem;
-    box-shadow: var(--shadow);
-}
 
-/* Boxes */
 
-.boxes{
-    display: grid;
-    font-weight: 600;
-    padding: 10rem,;
-    grid-gap: 10px;
-    grid-template-columns: repeat(auto-fit, minmax (200px, 1fr));
-    text-decoration: none;
-    padding: 0.5rem;
-    text-align: center;
-    color: var(--shadow);
-    font-size: 1.1rem; 
-    list-style-type: none; 
-}
-.boxes a:hover{
-    background: var(--light);
-    color: var(--dark);
-}
-.box{
-    background: var(--primary);
-    text-align: center;
-    padding: 1.5rem 2rem;
-    box-shadow: none;
-}
-
-.box h3 {
-    font-size: 1.25rem;
-    margin-bottom: 0;
-    color: var(--icon);
-    font-style: bold;
-    padding: 0.5rem;
-    font-weight: 750;
-}
 
 /* Portfolio */
 
@@ -750,17 +727,17 @@ footer{
         padding:  0.3rem 0.5rem;
     }
 
-    .boxes{
+    .box{
         padding: 0%;
         margin: 0%;
         font-size: 1rem
     }
 
-    .boxes h2{
+    .box h2{
         font-size: 1.5rem
    }
 
-   .boxes .btn{
+   .box .btn{
         background: var(--dark);
         color: var(--primary);
         padding: 0.5rem 2rem;
