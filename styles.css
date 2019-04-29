@@ -716,7 +716,7 @@ footer{
     }
 
     .info-about p{
-        font-size: 0.75rem;
+        font-size: 1rem;
     }
 
     .info-about img{
@@ -731,7 +731,7 @@ footer{
     
     footer{
         margin: 0;
-        font-size: 0.75rem;
+        font-size: 1rem;
         background: var(--dark);
         text-align: center;
         text-decoration: none;
@@ -739,15 +739,13 @@ footer{
     }
 
     .footer .icon-bar{
-        /* padding-left: 33%;
-        padding-right: 33%; */
         grid-template-columns: repeat(3, 1fr);
         margin-left: 5%;
         justify-content: left;
     }
     
     footer a{
-        font-size: 0.7rem;
+        font-size: 1rem;
         justify-content: center;
         margin: 5%;
     }
@@ -949,7 +947,7 @@ footer{
     }
 
     .info-about p{
-        font-size: 0.75rem;
+        font-size: 1rem;
     }
 
     .info-about img{
